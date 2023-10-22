@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  width: 100%;
+  background-color: #060606;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #060606;
+  color: white;
+  border: 1px solid #33373d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
